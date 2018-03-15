@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Emilie Poulat - Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">EP</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Acceuil</a></li>
+          <li class="active"><a href="about.html">A Propos de Moi</a></li>
+          <li><a href="#formulaire">Me Contacter</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>EMILIE POULAT</h1>
+      <p>Etudiante en 3ème année d'école de communication visuelle à l'ECV Bordeaux, je me destine à un futur mastère Publicité. Actuellement à la recherche d'un stage dans ce domaine, je suis ouverte à toute proposition (disponibilités : De Juin à Août 2018)</p>
+    </div>
+  </div>
+
+  <div class="container formulaire">
+  	<div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="well well-sm">
+            <form class="form-horizontal" action="" method="post">
+            <fieldset>
+              <legend class="text-center">Contact us</legend>
+
+              <!-- Name input-->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="name">Name</label>
+                <div class="col-md-9">
+                  <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                </div>
+              </div>
+
+              <!-- Email input-->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                <div class="col-md-9">
+                  <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                </div>
+              </div>
+
+              <!-- Message body -->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="message">Your message</label>
+                <div class="col-md-9">
+                  <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                </div>
+              </div>
+
+              <!-- Form actions -->
+              <div class="form-group">
+                <div class="col-md-12 text-right">
+                  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                </div>
+              </div>
+            </fieldset>
+            </form>
+          </div>
+        </div>
+  	</div>
+  </div>
+
+  <footer class="container-fluid text-center">
+    <p>Emilie Copyright 2018.</p>
+  </footer>
+
+</body>
+  </html>
